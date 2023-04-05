@@ -224,12 +224,12 @@ inputToCheck.addEventListener("blur", function(e) {
 function myFunction() {
   document.getElementById("myForm").reset();
 
-  document.getElementById("output1").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 1.5"; //reset formula ot1
-  document.getElementById("output2").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 0.5"; //reset formula ot2
-  document.getElementById("output3").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 1.0"; //reset formula ot3
-  document.getElementById("output4").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 2"; //reset formula ot4
-  document.getElementById("output5").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 2"; //reset formula ot5
-  document.getElementById("output6").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 3"; //reset formula ot6
+  document.getElementById("output1").innerHTML = "= (asas + syif) &#247; 26 &#247; 8 x 1.5"; //reset formula ot1
+  document.getElementById("output2").innerHTML = "= (asas + syif) &#247; 26 &#247; 8 x 0.5"; //reset formula ot2
+  document.getElementById("output3").innerHTML = "= (asas + syif) &#247; 26 &#247; 8 x 1.0"; //reset formula ot3
+  document.getElementById("output4").innerHTML = "= (asas + syif) &#247; 26 &#247; 8 x 2"; //reset formula ot4
+  document.getElementById("output5").innerHTML = "= (asas + syif) &#247; 26 &#247; 8 x 2"; //reset formula ot5
+  document.getElementById("output6").innerHTML = "= (asas + syif) &#247; 26 &#247; 8 x 3"; //reset formula ot6
 
   document.getElementById("output").innerHTML = "&nbsp;&nbsp;&nbsp;RM 0.00"; //reset asas
   document.getElementById("output11").innerHTML = "+ RM 0.00"; //reset shift
