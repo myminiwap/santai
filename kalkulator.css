@@ -1,7 +1,6 @@
 body {
   background-color: powderblue;
   font-family: Verdana;
-  font-size: 13px;
 }
 
 div.table {
@@ -43,7 +42,8 @@ table.base {
   border-radius: 5px;
   -moz-border-radius: 10px;
   text-align: left;
-  font-size: 13px;
+  /* font-weight: bold; */
+  font-size: 15px; /* font size------------------------ */
 }
 
 table.formula {
@@ -55,13 +55,8 @@ table.formula {
   border-collapse: collapse;
   border-radius: 5px;
   -moz-border-radius: 10px;
-  font-size: 13px;
+  font-size: 15px; /* font size------------------------ */
 }
-
-/* table.formula td {
-  padding: 2px 5px;
-border-bottom: 1px solid #EEEEEE;
-} */
 
 td.formula-left {
   width: 40%;
@@ -114,6 +109,7 @@ input[class=calmerah] {
   background-color: #D98880;
   color: #B22222;
   outline: none;
+  font-size: 15px; /* font size------------------------ */
 }
 
 input[class=calhijau] {
@@ -127,6 +123,7 @@ input[class=calhijau] {
   background-color: #ABEBC6;
   color: #008000;
   outline: none;
+  font-size: 15px; /* font size------------------------ */
 }
 
 input.reset {
@@ -138,6 +135,7 @@ input.reset {
   text-align: center;
   width: 100%;
   border: 1px solid #FFFFFF;
+  font-size: 15px; /* font size------------------------ */
 }
 
 input.reset:active {
@@ -163,6 +161,7 @@ button.kira {
   text-align: center;
   width: 100%;
   border: 1px solid #FFFFFF;
+  font-size: 15px; /* font size------------------------ */
 }
 
 button.kira:active {
@@ -207,6 +206,7 @@ td.btnkira {
   left: 50%;
   margin-left: -74px;
   opacity: 0.8;
+  font-size: 13px; /* font size------------------------ */
 
 }
 
@@ -269,7 +269,7 @@ td.btnkira {
   height: 16px;
   border-radius: 50%;
   border: 1px solid grey;
-  font-size: 15px;
+  font-size: 15px; /* font size------------------------ */
   color: black;
   margin-right: 5%;
   font-family: Monospace;
