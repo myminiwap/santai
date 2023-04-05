@@ -107,7 +107,7 @@ input[class=calmerah] {
   border-radius: 5px;
   box-sizing: border-box;
   background-color: #D98880;
-  color: #B22222;
+  color: #8B0000;
   outline: none;
   font-size: 15px; /* font size------------------------ */
 }
@@ -120,8 +120,8 @@ input[class=calhijau] {
   border: 1px solid #008000;
   border-radius: 5px;
   box-sizing: border-box;
-  background-color: #ABEBC6;
-  color: #008000;
+  background-color: #66cdaa;
+  color: green;
   outline: none;
   font-size: 15px; /* font size------------------------ */
 }
@@ -207,7 +207,6 @@ td.btnkira {
   margin-left: -74px;
   opacity: 0.8;
   font-size: 13px; /* font size------------------------ */
-
 }
 
 /* Popup arrow */
