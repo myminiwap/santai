@@ -1,400 +1,374 @@
-// hide/unhide table formula start-------------------------------------------------------
-function toggle() {
-  var spolier = document.getElementById('spoiler');
-  var BgSorok = "#EEEEEE"; // what ever color you want
-  var BgLihat = "#EEEEEE"; // what ever color you want
-
-  if (spolier.style.display == "none") {
-    event.target.innerText = 'Sorok formula'
-    spolier.style.display = "";
-    document.getElementById("spoiler").style.backgroundColor = BgSorok
-
-  } else {
-    event.target.innerText = 'Lihat formula'
-    spolier.style.display = "none";
-    document.getElementById("tukarBg").style.backgroundColor = BgLihat
-  }
-}
-// hide/unhide table formula end------------------------------------------------------- 
-
-//popup info start-------------------------------------------------------------------
-function myInfo1() {
-  var popup = document.getElementById("myPopup1");
-  popup.classList.toggle("show");
-  setTimeout(function() {
-    document.getElementById("myPopup1").classList.toggle("show");
-  }, 2000);
+body {
+  background-color: powderblue;
+  font-family: Verdana;
+  font-size: 13px;
 }
 
-function myInfo2() {
-  var popup = document.getElementById("myPopup2");
-  popup.classList.toggle("show");
-  setTimeout(function() {
-    document.getElementById("myPopup2").classList.toggle("show");
-  }, 2000);
+div.table {
+  margin: 5px;
 }
 
-function myInfo3() {
-  var popup = document.getElementById("myPopup3");
-  popup.classList.toggle("show");
-  setTimeout(function() {
-    document.getElementById("myPopup3").classList.toggle("show");
-  }, 2000);
+div.gaji-asas {
+  font-weight: bold;
 }
 
-function myInfo4() {
-  var popup = document.getElementById("myPopup4");
-  popup.classList.toggle("show");
-  setTimeout(function() {
-    document.getElementById("myPopup4").classList.toggle("show");
-  }, 2000);
+div.jumlah-gaji {
+  color: #2f4f4f;
+  font-weight: bold;
 }
 
-function myInfo5() {
-  var popup = document.getElementById("myPopup5");
-  popup.classList.toggle("show");
-  setTimeout(function() {
-    document.getElementById("myPopup5").classList.toggle("show");
-  }, 2000);
+span.kalku {
+  color: grey;
+  font-weight: bold;
 }
 
-function myInfo6() {
-  var popup = document.getElementById("myPopup6");
-  popup.classList.toggle("show");
-  setTimeout(function() {
-    document.getElementById("myPopup6").classList.toggle("show");
-  }, 2000);
+ table.title {
+  border: 1px solid #FFFFFF;
+  background-color: #87CEFA;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  padding: 2px 2px;
+  color: #ffffff;
+  border-collapse: separate;
+  border-radius: 5px;
+  -moz-border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-function myInfo7() {
-  var popup = document.getElementById("myPopup7");
-  popup.classList.toggle("show");
-  setTimeout(function() {
-    document.getElementById("myPopup7").classList.toggle("show");
-  }, 2000);
+table.base {
+  border: 1px solid #FFFFFF;
+  background-color: #EEEEEE;
+  width: 100%;
+  height: auto;
+  padding: 5px 5px;
+  color: #707070;
+  border-collapse: separate;
+  border-radius: 5px;
+  -moz-border-radius: 10px;
+  text-align: left;
+  font-size: 13px;
 }
 
-function myInfo8() {
-  var popup = document.getElementById("myPopup8");
-  popup.classList.toggle("show");
-  setTimeout(function() {
-    document.getElementById("myPopup8").classList.toggle("show");
-  }, 2000);
+table.formula {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  padding: 10px 10px;
+  /* color: #708090; */
+  border-collapse: collapse;
+  border-radius: 5px;
+  -moz-border-radius: 10px;
+  font-size: 13px;
 }
 
-function myInfo9() {
-  var popup = document.getElementById("myPopup9");
-  popup.classList.toggle("show");
-  setTimeout(function() {
-    document.getElementById("myPopup9").classList.toggle("show");
-  }, 2000);
+table.formula td {
+  /*  width: 30%; */
+  padding: 2px 5px;
+  border-bottom: 1px solid white;
 }
 
-function myInfo10() {
-  var popup = document.getElementById("myPopup10");
-  popup.classList.toggle("show");
-  setTimeout(function() {
-    document.getElementById("myPopup10").classList.toggle("show");
-  }, 2000);
+td.formula-left {
+  width: 30%;
 }
 
-function myInfo11() {
-  var popup = document.getElementById("myPopup11");
-  popup.classList.toggle("show");
-  setTimeout(function() {
-    document.getElementById("myPopup11").classList.toggle("show");
-  }, 2000);
-}
-//popup info end-------------------------------------------------------------------
-
-//https://stackoverflow.com/questions/42226161/input-field-remove-value-when-onclick-events-and-restore-the-value-if-not-set 
-//BASIC--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("basic");
-inputToCheck.initialValue = inputToCheck.value || '';
-inputToCheck.addEventListener("focus", function(e) {
-  this.value == this.initialValue ? this.value = "" : "";
-});
-inputToCheck.addEventListener("blur", function(e) {
-  this.value == "" ? this.value = this.initialValue : "";
-})
-//SHIFT--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("shift");
-inputToCheck.initialValue = inputToCheck.value || '';
-inputToCheck.addEventListener("focus", function(e) {
-  this.value == this.initialValue ? this.value = "" : "";
-});
-inputToCheck.addEventListener("blur", function(e) {
-  this.value == "" ? this.value = this.initialValue : "";
-})
-//PB--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("pb");
-inputToCheck.initialValue = inputToCheck.value || '';
-inputToCheck.addEventListener("focus", function(e) {
-  this.value == this.initialValue ? this.value = "" : "";
-});
-inputToCheck.addEventListener("blur", function(e) {
-  this.value == "" ? this.value = this.initialValue : "";
-})
-//DOBI--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("dobi");
-inputToCheck.initialValue = inputToCheck.value || '';
-inputToCheck.addEventListener("focus", function(e) {
-  this.value == this.initialValue ? this.value = "" : "";
-});
-inputToCheck.addEventListener("blur", function(e) {
-  this.value == "" ? this.value = this.initialValue : "";
-})
-//MAKAN--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("makan");
-inputToCheck.initialValue = inputToCheck.value || '';
-inputToCheck.addEventListener("focus", function(e) {
-  this.value == this.initialValue ? this.value = "" : "";
-});
-inputToCheck.addEventListener("blur", function(e) {
-  this.value == "" ? this.value = this.initialValue : "";
-})
-//OT1--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("ot");
-inputToCheck.initialValue = inputToCheck.value || '';
-
-inputToCheck.addEventListener("focus", function(e) {
-  this.value == this.initialValue ? this.value = "" : "";
-});
-
-inputToCheck.addEventListener("blur", function(e) {
-  this.value == "" ? this.value = this.initialValue : "";
-})
-//OT2--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("odot_1");
-inputToCheck.initialValue = inputToCheck.value || '';
-
-inputToCheck.addEventListener("focus", function(e) {
-  this.value == this.initialValue ? this.value = "" : "";
-});
-
-inputToCheck.addEventListener("blur", function(e) {
-  this.value == "" ? this.value = this.initialValue : "";
-})
-//OT3--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("odot_2");
-inputToCheck.initialValue = inputToCheck.value || '';
-
-inputToCheck.addEventListener("focus", function(e) {
-  this.value == this.initialValue ? this.value = "" : "";
-});
-
-inputToCheck.addEventListener("blur", function(e) {
-  this.value == "" ? this.value = this.initialValue : "";
-})
-//OT4--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("odot_3");
-inputToCheck.initialValue = inputToCheck.value || '';
-
-inputToCheck.addEventListener("focus", function(e) {
-  this.value == this.initialValue ? this.value = "" : "";
-});
-
-inputToCheck.addEventListener("blur", function(e) {
-  this.value == "" ? this.value = this.initialValue : "";
-})
-//OT5--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("ph_1");
-inputToCheck.initialValue = inputToCheck.value || '';
-
-inputToCheck.addEventListener("focus", function(e) {
-  this.value == this.initialValue ? this.value = "" : "";
-});
-
-inputToCheck.addEventListener("blur", function(e) {
-  this.value == "" ? this.value = this.initialValue : "";
-})
-//OT6--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("ph_2");
-inputToCheck.initialValue = inputToCheck.value || '';
-
-inputToCheck.addEventListener("focus", function(e) {
-  this.value == this.initialValue ? this.value = "" : "";
-});
-
-inputToCheck.addEventListener("blur", function(e) {
-  this.value == "" ? this.value = this.initialValue : "";
-})
-
-//5. reset button start------------------------------------------------------------------------------------------------------
-function myFunction() {
-  document.getElementById("myForm").reset();
-
-  document.getElementById("output1").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 1.5"; //reset formula ot1
-  document.getElementById("output2").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 0.5"; //reset formula ot2
-  document.getElementById("output3").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 1.0"; //reset formula ot3
-  document.getElementById("output4").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 2"; //reset formula ot4
-  document.getElementById("output5").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 2"; //reset formula ot5
-  document.getElementById("output6").innerHTML = "(asas + syif) &#247; 26 &#247; 8 x 3"; //reset formula ot6
-
-  document.getElementById("output").innerHTML = "&nbsp;&nbsp;&nbsp;RM 0.00"; //reset asas
-  document.getElementById("output11").innerHTML = "+ RM 0.00"; //reset shift
-  document.getElementById("output12").innerHTML = "+ RM 0.00"; //reset PB
-  document.getElementById("output13").innerHTML = "+ RM 0.00"; //reset dobi
-  document.getElementById("output17").innerHTML = "+ RM 0.00"; //reset makan
-  document.getElementById("output7").innerHTML = "+ RM 0.00"; //reset ot1
-  document.getElementById("output8").innerHTML = "+ RM 0.00"; //reset ot2
-  document.getElementById("output15").innerHTML = "+ RM 0.00"; //reset ot3
-  document.getElementById("output16").innerHTML = "+ RM 0.00"; //reset ot4
-  document.getElementById("output9").innerHTML = "+ RM 0.00"; //reset ot5
-  document.getElementById("output14").innerHTML = "+ RM 0.00"; //reset ot6
-  document.getElementById("output10").innerHTML = "= RM 0.00"; //reset gaji 
-}
-//5. reset button end------------------------------------------------------------------------------------------------------
-
-//1. dapatan dari text box start------------------------------------------------------------------------------------------------------
-//https://github.com/kaizhelam/BMI-Calculator
-let button = document.getElementById('btn');
-button.addEventListener('click', () => {
-
-  const basic = parseInt(document.getElementById('basic').value); //basic  
-  const shift = parseInt(document.getElementById('shift').value); // shift    
-  const pb = parseInt(document.getElementById('pb').value); // pb  
-  const dobi = parseInt(document.getElementById('dobi').value); // dobi 
-  const makan = parseInt(document.getElementById('makan').value); // makan 
-
-  const ot = parseInt(document.getElementById('ot').value); // ot1
-
-  const odot_1 = parseInt(document.getElementById('odot_1').value); // ot2
-  const odot_2 = parseInt(document.getElementById('odot_2').value); // ot3
-  const odot_3 = parseInt(document.getElementById('odot_3').value); // ot4
-
-  const ph_1 = parseInt(document.getElementById('ph_1').value); // 0t5
-  const ph_2 = parseInt(document.getElementById('ph_2').value); // 0t6
-  //1. dapatan dari text box end------------------------------------------------------------------------------------------------------
-
-
-  // 4.tayang keputusan start---------------------------------------------------------------------------------------------------------
-  //formula
-  const result1 = document.getElementById('output1'); //formula ot1
-  const result2 = document.getElementById('output2'); // formula ot2
-  const result3 = document.getElementById('output3'); // formula ot3
-  const result4 = document.getElementById('output4'); // formula ot4
-  const result5 = document.getElementById('output5'); // formula ot5
-  const result6 = document.getElementById('output6'); // formula ot6
-  //total
-  const result = document.getElementById('output'); // basic
-  const result7 = document.getElementById('output7'); // ot1 
-  const result8 = document.getElementById('output8'); //ot2
-  const result15 = document.getElementById('output15'); //ot3
-  const result16 = document.getElementById('output16'); //ot4
-  const result9 = document.getElementById('output9'); // OT5 
-  const result14 = document.getElementById('output14'); // OT6
-  const result10 = document.getElementById('output10'); // FULL GAJI  
-  const result11 = document.getElementById('output11'); // elaun shift 
-  const result12 = document.getElementById('output12'); // elaun pb  
-  const result13 = document.getElementById('output13'); // elaun dobi  
-  const result17 = document.getElementById('output17'); // elaun makan
-  // 4.tayang keputusan end---------------------------------------------------------------------------------------------------------
-
-  // 2.kira start-----------------------------------------------------------------------------------------------------------------
-  /* contoh const bmi = (weight / ((height*height)/10000)).toFixed(2); */
-  /* const basic_ot = ((basic / 26 / 8 * 1.5 * ot) + basic).toFixed(2); */
-  let ot_1 = ((basic + shift) / 26 / 8 * 1.5 * ot).toFixed(2); // kira jumlah ot1
-  let ot_2 = ((basic + shift) / 26 / 8 * 0.5 * odot_1).toFixed(2); //kira jumlah ot2
-  let ot_3 = ((basic + shift) / 26 / 8 * 1 * odot_2).toFixed(2); //kira jumlah ot3
-  let ot_4 = ((basic + shift) / 26 / 8 * 2 * odot_3).toFixed(2); //kira jumlah ot4  
-  let ot_5 = ((basic + shift) / 26 / 8 * 2 * ph_1).toFixed(2); //kira jumlah ot5
-  let ot_6 = ((basic + shift) / 26 / 8 * 3 * ph_2).toFixed(2); //kira jumlah ot6
-  let e_basic = (1 * basic).toFixed(2); //kira jumlah basic
-  let e_shift = (1 * shift).toFixed(2); //kira jumlah elaun shift
-  let e_pb = (1 * pb).toFixed(2); //kira jumlah elaun pb
-  let e_dobi = (1 * dobi).toFixed(2); //kira jumlah elaun dobi
-  let e_makan = (10 * makan).toFixed(2); //kira jumlah elaun makan
-
-  let t_ot_1 = ((basic + shift) / 26 / 8 * 1.5 * ot);
-  let t_ot_2 = ((basic + shift) / 26 / 8 * 0.5 * odot_1);
-  let t_ot_3 = ((basic + shift) / 26 / 8 * 1 * odot_2);
-  let t_ot_4 = ((basic + shift) / 26 / 8 * 2 * odot_3);
-  let t_ot_5 = ((basic + shift) / 26 / 8 * 2 * ph_1);
-  let t_ot_6 = ((basic + shift) / 26 / 8 * 3 * ph_2);
-  let t_e_makan = (10 * makan);
-  let gaji = (basic + shift + pb + dobi + t_e_makan + t_ot_1 + t_ot_2 + t_ot_3 + t_ot_4 + t_ot_5 + t_ot_6).toFixed(2); //kira total all
-
-  // kira formula----------------------------------------------------------------
-  const ot1 = ((basic + shift) / 26 / 8 * 1.5).toFixed(2); //kira jumlah ot1
-  const ot2 = ((basic + shift) / 26 / 8 * 0.5).toFixed(2); //kira jumlah ot2
-  const ot3 = ((basic + shift) / 26 / 8 * 1.0).toFixed(2); //kira jumlah ot3
-  const ot4 = ((basic + shift) / 26 / 8 * 2).toFixed(2); //kira jumlah ot4
-  const ot5 = ((basic + shift) / 26 / 8 * 2).toFixed(2); //kira jumlah ot5
-  const ot6 = ((basic + shift) / 26 / 8 * 3).toFixed(2); //kira jumlah ot6
-  //2. kira end-----------------------------------------------------------------------------------------------------------------
-
-  // 3. tayang start-----------------------------------------------------------------------------------------------
-  //formula
-  if (ot1) {
-    result1.innerHTML = '= RM ' + ot1 + ' ';
-  }
-  if (ot2) {
-    result2.innerHTML = '= RM ' + ot2 + ' ';
-  }
-  if (ot3) {
-    result3.innerHTML = '= RM ' + ot3 + ' ';
-  }
-  if (ot4) {
-    result4.innerHTML = '= RM ' + ot4 + ' ';
-  }
-  if (ot5) {
-    result5.innerHTML = '= RM ' + ot5 + ' ';
-  }
-  if (ot6) {
-    result6.innerHTML = '= RM ' + ot6 + ' ';
-  }
-
-  //total
-  if (e_basic) {
-    result.innerHTML = '&nbsp;&nbsp;&nbsp;RM ' + e_basic; //untuk tayang basic
-  }
-  if (e_shift) {
-    result11.innerHTML = '+ RM ' + e_shift; //untuk tayang elaun shift
-  }
-  if (e_pb) {
-    result12.innerHTML = '+ RM ' + e_pb; //untuk tayang elaun pb
-  }
-  if (e_dobi) {
-    result13.innerHTML = '+ RM ' + e_dobi; //untuk tayang elaun dobi
-  }
-  if (e_makan) {
-    result17.innerHTML = '+ RM ' + e_makan; //untuk tayang elaun makan
-  }
-  if (ot_1) {
-    result7.innerHTML = '+ RM ' + ot_1; //untuk tayang 0t1
-  }
-
-  if (ot_2) {
-    result8.innerHTML = '+ RM ' + ot_2; //untuk tayang 0t2
-  }
-  if (ot_3) {
-    result15.innerHTML = '+ RM ' + ot_3; //untuk tayang 0t3
-  }
-  if (ot_4) {
-    result16.innerHTML = '+ RM ' + ot_4; //untuk tayang 0t4
-  }
-  if (ot_5) {
-    result9.innerHTML = '+ RM ' + ot_5; //untuk tayang 0t5
-  }
-  if (ot_6) {
-    result14.innerHTML = '+ RM ' + ot_6; //untuk tayang 0t6
-  }
-  if (gaji) {
-    result10.innerHTML = '= RM ' + gaji; //untuk tayang jumlah gaji
-  }
-  //3.  tayang end------------------------------------------------------------------------------------------------
-});
-
-//myloader start---------------------------------------------------------------
-var myVar;
-
-function myLoader() {
-  myVar = setTimeout(showPage, 1000);
+td.formula-right {
+  width: 70%;
 }
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
+table.formula tbody {
+  color: #191970;
 }
-//myloader end---------------------------------------------------------------
+
+table.formula tfoot {
+  color: #2f4f4f;
+}
+
+td.hide {
+  visibility: hidden;
+}
+
+input[class=calmerah] {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 3px 0;
+  display: inline-block;
+  border: 1px solid #DC143C;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #D98880;
+  color: #B22222;
+}
+
+input[class=calhijau] {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 3px 0;
+  display: inline-block;
+  border: 1px solid #008000;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #ABEBC6;
+  color: #008000;
+}
+
+input.reset {
+  border-radius: 5px;
+  background-color: #1e90ff;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #FFFFFF;
+}
+
+input.reset:active {
+  background-color: #00bfff;
+}
+
+input.reset:hover {
+  background-color: #00bfff;
+}
+
+td.btnreset {
+  text-align: center;
+  width: 50%;
+
+}
+
+button.kira {
+  border-radius: 5px;
+  background-color: #20B2AA;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #FFFFFF;
+}
+
+button.kira:active {
+  background-color: #32CD32;
+}
+
+button.kira:hover {
+  background-color: #32CD32;
+}
+
+td.btnkira {
+  text-align: center;
+  width: 50%;
+}
+
+button.hide {
+  border-radius: 5px;
+  background-color: #2f4f4f;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  /* border: none; */
+  color: white;
+  padding: 8px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #FFFFFF;
+}
+
+/* button.hide:active {
+  background-color: #DEB887;
+}
+
+button.hide:hover {
+  background-color: #DEB887;
+} */
+
+/* Tooltip start--------------------------------------------------------------------------- */
+
+/* Popup container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* width: 100%; */
+}
+
+/* The actual popup (appears on top) */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -74px;
+  opacity: 0.8;
+
+}
+
+/* Popup arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.tooltip .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.8;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.8;
+  }
+}
+
+/* Tooltip end--------------------------------------------------------------------------- */
+
+
+/* info icon start--------------------------------------------------------------------- */
+
+.icon-border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  font-size: 15px;
+  color: grey;
+  margin-right: 5%;
+  font-family: Monospace;
+}
+
+/* info icon end--------------------------------------------------------------------- */
+
+/* Center the loader start---------------------------------------------------------------- */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0
+  }
+
+  to {
+    bottom: 0px;
+    opacity: 1
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1
+  }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Center the loader end---------------------------------------------------------------- */
+
+/* TEST------------------------------------------------------------------------- */
