@@ -3,17 +3,20 @@ function toggle() {
   var spolier = document.getElementById('spoiler');
   var BgSorok = "#191970"; // what ever color you want
   var BgLihat = "#2f4f4f"; // what ever color you want
-  
+
   if (spolier.style.display == "none") {
-    event.target.innerText = '\u25BC Sorok formula \u25BC'
+    event.target.innerText = '\u25BC Sorok formula'
     spolier.style.display = "";
     document.getElementById("tukarBg").style.backgroundColor = BgSorok
-   
+    document.getElementById("tukarBg").style.color = "#87cefa";
+    document.getElementById("tukarBg").style.borderBottomColor = "blue";
   } else {
-  
-    event.target.innerText = '\u25B6 Lihat formula \u25C0'
+
+    event.target.innerText = '\u25B6 Lihat formula'
     spolier.style.display = "none";
     document.getElementById("tukarBg").style.backgroundColor = BgLihat
+    document.getElementById("tukarBg").style.color = "#66cdaa";
+    document.getElementById("tukarBg").style.borderBottomColor = "#008080";
   }
 }
 // hide/unhide table formula end------------------------------------------------------- 
