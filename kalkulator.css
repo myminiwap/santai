@@ -13,16 +13,11 @@ div.gaji-asas {
 }
 
 div.jumlah-gaji {
-  color: #2f4f4f;
+  color: #66cdaa;
   font-weight: bold;
 }
 
-span.kalku {
-  color: grey;
-  font-weight: bold;
-}
-
- table.title {
+table.title {
   border: 1px solid #FFFFFF;
   background-color: #87CEFA;
   width: 100%;
@@ -55,7 +50,7 @@ table.formula {
   width: 100%;
   height: auto;
   text-align: left;
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
   /* color: #708090; */
   border-collapse: collapse;
   border-radius: 5px;
@@ -63,30 +58,49 @@ table.formula {
   font-size: 13px;
 }
 
-table.formula td {
-  /*  width: 30%; */
+/* table.formula td {
   padding: 2px 5px;
-  border-bottom: 1px solid white;
-}
+border-bottom: 1px solid #EEEEEE;
+} */
 
 td.formula-left {
-  width: 30%;
+  width: 40%;
 }
 
 td.formula-right {
-  width: 70%;
+  width: 60%;
 }
 
-table.formula tbody {
-  color: #191970;
+table.formula thead th {
+  background-color: #2f4f4f;
+  color: #66cdaa;
+  text-align: center;
+  height: 30px;
+  border-bottom: 1px solid #008080;
+  cursor: pointer;
 }
 
-table.formula tfoot {
-  color: #2f4f4f;
+table.formula tbody td {
+  color: #87cefa;
+  background-color: #191970;
+  border-bottom: 1px solid blue;
+  padding: 5px 5px;
+  /* transition: width 0.8s ease-in-out; */
 }
 
-td.hide {
-  visibility: hidden;
+table.formula tbody>tr:last-child>td {
+  border-bottom: 0;
+}
+
+table.formula tfoot td {
+  color: #66cdaa;
+  background-color: #2f4f4f;
+  border-bottom: 1px solid #008080;
+  padding: 5px 5px;
+}
+
+table.formula tfoot>tr:last-child>td {
+  border-bottom: 0;
 }
 
 input[class=calmerah] {
@@ -99,6 +113,7 @@ input[class=calmerah] {
   box-sizing: border-box;
   background-color: #D98880;
   color: #B22222;
+  outline: none;
 }
 
 input[class=calhijau] {
@@ -111,6 +126,7 @@ input[class=calhijau] {
   box-sizing: border-box;
   background-color: #ABEBC6;
   color: #008000;
+  outline: none;
 }
 
 input.reset {
@@ -161,28 +177,6 @@ td.btnkira {
   text-align: center;
   width: 50%;
 }
-
-button.hide {
-  border-radius: 5px;
-  background-color: #2f4f4f;
-  /* display: block; */
-  margin-left: auto;
-  margin-right: auto;
-  /* border: none; */
-  color: white;
-  padding: 8px;
-  text-align: center;
-  width: 100%;
-  border: 1px solid #FFFFFF;
-}
-
-/* button.hide:active {
-  background-color: #DEB887;
-}
-
-button.hide:hover {
-  background-color: #DEB887;
-} */
 
 /* Tooltip start--------------------------------------------------------------------------- */
 
@@ -276,7 +270,7 @@ button.hide:hover {
   border-radius: 50%;
   border: 1px solid grey;
   font-size: 15px;
-  color: grey;
+  color: black;
   margin-right: 5%;
   font-family: Monospace;
 }
@@ -367,6 +361,27 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+::placeholder {
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-weight: bold;
+  opacity: 1;
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-weight: bold;
+  opacity: 1;
+  color: white;
 }
 
 /* Center the loader end---------------------------------------------------------------- */
