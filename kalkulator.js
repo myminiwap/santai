@@ -1,16 +1,17 @@
 // hide/unhide table formula start-------------------------------------------------------
 function toggle() {
   var spolier = document.getElementById('spoiler');
-  var BgSorok = "#EEEEEE"; // what ever color you want
-  var BgLihat = "#EEEEEE"; // what ever color you want
-
+  var BgSorok = "#191970"; // what ever color you want
+  var BgLihat = "#2f4f4f"; // what ever color you want
+  
   if (spolier.style.display == "none") {
-    event.target.innerText = 'Sorok formula'
+    event.target.innerText = '\u25BC Sorok formula \u25BC'
     spolier.style.display = "";
-    document.getElementById("spoiler").style.backgroundColor = BgSorok
-
+    document.getElementById("tukarBg").style.backgroundColor = BgSorok
+   
   } else {
-    event.target.innerText = 'Lihat formula'
+  
+    event.target.innerText = '\u25B6 Lihat formula \u25C0'
     spolier.style.display = "none";
     document.getElementById("tukarBg").style.backgroundColor = BgLihat
   }
