@@ -1,6 +1,7 @@
 body {
   background-color: powderblue;
   font-family: Verdana;
+  max-width: 700px;
 }
 
 div.table {
