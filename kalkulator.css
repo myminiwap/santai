@@ -1,11 +1,15 @@
-body {
+html, body {
   background-color: powderblue;
   font-family: Verdana;
-  max-width: 700px;
+  max-width: 900px;
+  margin: 0 auto !important;
+  float: none !important;
+  height: 100%
 }
 
 div.table {
   margin: 5px;
+  height: 100%
 }
 
 div.gaji-asas {
@@ -36,7 +40,7 @@ table.base {
   border: 1px solid #FFFFFF;
   background-color: #EEEEEE;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 5px 5px;
   color: #707070;
   border-collapse: separate;
