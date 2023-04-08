@@ -9,7 +9,7 @@ function toggle() {
     spolier.style.display = "";
     document.getElementById("tukarBg").style.backgroundColor = "#2f4f4f";
     document.getElementById("tukarBg").style.color = "#66cdaa";
-    document.getElementById("tukarBg").style.borderBottomColor = "#008080";
+    document.getElementById("tukarBg").style.borderBottomColor = "#2f4f4f";
   } else {
 
     event.target.innerText = '\u25B6 Lihat formula'
