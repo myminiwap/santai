@@ -23,8 +23,8 @@ div.jumlah-gaji {
 }
 
 table.title {
-  border: 1px solid #FFFFFF;
-  background-color: #87CEFA;
+  border: 1px solid #ffffff;
+  background-color: #87cefa;
   width: 100%;
   height: 35px;
   text-align: center;
@@ -39,8 +39,8 @@ table.title {
 }
 
 table.base {
-  border: 1px solid #FFFFFF;
-  background-color: #EEEEEE;
+  border: 1px solid #ffffff;
+  background-color: #eeeeee;
   width: 100%;
   height: 100%;
   /* cuba height--------------------------------------------- */
@@ -88,6 +88,20 @@ table.formula thead th {
   cursor: pointer;
 }
 
+span.up {
+  color: white;
+  /* rotate: 90deg;
+transform: rotate(180deg);
+  display: inline-block; */
+}
+
+span.down {
+  color: red;
+  /* rotate: -90deg;
+ transform: rotate(180deg);
+  display: inline-block; */
+}
+
 table.formula tbody td {
   /* color: #87cefa; */
   /* background-color: #191970; */
@@ -96,9 +110,11 @@ table.formula tbody td {
   background-color: #66cdaa;
   border-bottom: 1px solid #008080;
   padding: 5px 5px;
+  font-size: 13px;
+  /* font size------------------------ */
 }
 
-table.formula tbody>tr:last-child>td {
+table.formula tbody > tr:last-child > td {
   border-bottom: 0;
 }
 
@@ -108,26 +124,26 @@ table.formula tfoot td {
   padding: 5px 5px;
 }
 
-table.formula tfoot>tr:last-child>td {
+table.formula tfoot > tr:last-child > td {
   border-bottom: 0;
 }
 
-input[class=calmerah] {
+input[class="calmerah"] {
   width: 100%;
   padding: 5px 20px;
   margin: 3px 0;
   display: inline-block;
-  border: 1px solid #DC143C;
+  border: 1px solid #dc143c;
   border-radius: 5px;
   box-sizing: border-box;
-  background-color: #D98880;
-  color: #8B0000;
+  background-color: #d98880;
+  color: #8b0000;
   outline: none;
   font-size: 15px;
   /* font size------------------------ */
 }
 
-input[class=calhijau] {
+input[class="calhijau"] {
   width: 100%;
   padding: 5px 20px;
   margin: 3px 0;
@@ -142,7 +158,7 @@ input[class=calhijau] {
   /* font size------------------------ */
 }
 
-input.reset {
+button.reset {
   border-radius: 5px;
   background-color: #1e90ff;
   border: none;
@@ -150,44 +166,43 @@ input.reset {
   padding: 8px;
   text-align: center;
   width: 100%;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   font-size: 15px;
   /* font size------------------------ */
 }
 
-input.reset:active {
+button.reset:active {
   background-color: #00bfff;
 }
 
-input.reset:hover {
+button.reset:hover {
   background-color: #00bfff;
 }
 
 td.btnreset {
   text-align: center;
   width: 50%;
-
 }
 
 button.kira {
   border-radius: 5px;
-  background-color: #20B2AA;
+  background-color: #20b2aa;
   border: none;
   color: white;
   padding: 8px;
   text-align: center;
   width: 100%;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   font-size: 15px;
   /* font size------------------------ */
 }
 
 button.kira:active {
-  background-color: #32CD32;
+  background-color: #32cd32;
 }
 
 button.kira:hover {
-  background-color: #32CD32;
+  background-color: #32cd32;
 }
 
 td.btnkira {
@@ -270,7 +285,6 @@ td.btnkira {
 
 /* Tooltip end--------------------------------------------------------------------------- */
 
-
 /* info icon start--------------------------------------------------------------------- */
 
 .icon-border {
@@ -338,30 +352,30 @@ td.btnkira {
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 1s;
   animation-name: animatebottom;
-  animation-duration: 1s
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes animatebottom {
   from {
     bottom: -100px;
-    opacity: 0
+    opacity: 0;
   }
 
   to {
     bottom: 0px;
-    opacity: 1
+    opacity: 1;
   }
 }
 
 @keyframes animatebottom {
   from {
     bottom: -100px;
-    opacity: 0
+    opacity: 0;
   }
 
   to {
     bottom: 0;
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -378,7 +392,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
