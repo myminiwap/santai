@@ -3,6 +3,8 @@ body {
   background-color: powderblue;
   font-family: Verdana;
   max-width: 900px;
+  margin: 0 auto !important;
+  float: none !important;
 }
 
 div.table {
