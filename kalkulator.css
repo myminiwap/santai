@@ -5,6 +5,7 @@ body {
   max-width: 900px;
   margin: 0 auto !important;
   float: none !important;
+  height: 100%;
 }
 
 div.table {
