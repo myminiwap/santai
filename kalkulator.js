@@ -5,14 +5,16 @@ function toggle() {
   // var BgLihat = "#2f4f4f"; // what ever color you want
 
   if (spolier.style.display == "none") {
-    event.target.innerHTML = '<span class="down">&#9660;</span> Sorok formula';
+    /* event.target.innerHTML = '<span class="down">&#9660;</span> Sorok formula'; */
     spolier.style.display = "";
+    document.getElementById("tukarBg").innerHTML = "<span class='down'>&#9660;</span> Sorok formula";
     document.getElementById("tukarBg").style.backgroundColor = "#2f4f4f";
     document.getElementById("tukarBg").style.color = "#66cdaa";
     document.getElementById("tukarBg").style.borderBottomColor = "#2f4f4f";
   } else {
-    event.target.innerHTML = '<span class="up">&#9650;</span> Lihat formula';
+    /* event.target.innerHTML = '<span class="up">&#9650;</span> Lihat formula'; */
     spolier.style.display = "none";
+    document.getElementById("tukarBg").innerHTML = "<span class='up'>&#9650;</span> Lihat formula";
     document.getElementById("tukarBg").style.backgroundColor = "#2f4f4f";
     document.getElementById("tukarBg").style.color = "#66cdaa";
     document.getElementById("tukarBg").style.borderBottomColor = "#008080";
