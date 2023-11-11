@@ -26,7 +26,7 @@ function toggle() {
 function myInfo1() {
   var popup = document.getElementById("myPopup1");
   popup.classList.toggle("show");
-  setTimeout(function () {
+  setTimeout(function() {
     document.getElementById("myPopup1").classList.toggle("show");
   }, 2000);
 }
@@ -34,7 +34,7 @@ function myInfo1() {
 function myInfo2() {
   var popup = document.getElementById("myPopup2");
   popup.classList.toggle("show");
-  setTimeout(function () {
+  setTimeout(function() {
     document.getElementById("myPopup2").classList.toggle("show");
   }, 2000);
 }
@@ -42,7 +42,7 @@ function myInfo2() {
 function myInfo3() {
   var popup = document.getElementById("myPopup3");
   popup.classList.toggle("show");
-  setTimeout(function () {
+  setTimeout(function() {
     document.getElementById("myPopup3").classList.toggle("show");
   }, 2000);
 }
@@ -50,7 +50,7 @@ function myInfo3() {
 function myInfo4() {
   var popup = document.getElementById("myPopup4");
   popup.classList.toggle("show");
-  setTimeout(function () {
+  setTimeout(function() {
     document.getElementById("myPopup4").classList.toggle("show");
   }, 2000);
 }
@@ -58,7 +58,7 @@ function myInfo4() {
 function myInfo5() {
   var popup = document.getElementById("myPopup5");
   popup.classList.toggle("show");
-  setTimeout(function () {
+  setTimeout(function() {
     document.getElementById("myPopup5").classList.toggle("show");
   }, 2000);
 }
@@ -66,23 +66,23 @@ function myInfo5() {
 function myInfo6() {
   var popup = document.getElementById("myPopup6");
   popup.classList.toggle("show");
-  setTimeout(function () {
+  setTimeout(function() {
     document.getElementById("myPopup6").classList.toggle("show");
   }, 2000);
 }
 
-function myInfo7() {
-  var popup = document.getElementById("myPopup7");
-  popup.classList.toggle("show");
-  setTimeout(function () {
-    document.getElementById("myPopup7").classList.toggle("show");
-  }, 2000);
-}
+//function myInfo7() {
+//  var popup = document.getElementById("myPopup7");
+//  popup.classList.toggle("show");
+//  setTimeout(function () {
+//    document.getElementById("myPopup7").classList.toggle("show");
+//  }, 2000);
+//}
 
 function myInfo8() {
   var popup = document.getElementById("myPopup8");
   popup.classList.toggle("show");
-  setTimeout(function () {
+  setTimeout(function() {
     document.getElementById("myPopup8").classList.toggle("show");
   }, 2000);
 }
@@ -90,7 +90,7 @@ function myInfo8() {
 function myInfo9() {
   var popup = document.getElementById("myPopup9");
   popup.classList.toggle("show");
-  setTimeout(function () {
+  setTimeout(function() {
     document.getElementById("myPopup9").classList.toggle("show");
   }, 2000);
 }
@@ -98,7 +98,7 @@ function myInfo9() {
 function myInfo10() {
   var popup = document.getElementById("myPopup10");
   popup.classList.toggle("show");
-  setTimeout(function () {
+  setTimeout(function() {
     document.getElementById("myPopup10").classList.toggle("show");
   }, 2000);
 }
@@ -106,7 +106,7 @@ function myInfo10() {
 function myInfo11() {
   var popup = document.getElementById("myPopup11");
   popup.classList.toggle("show");
-  setTimeout(function () {
+  setTimeout(function() {
     document.getElementById("myPopup11").classList.toggle("show");
   }, 2000);
 }
@@ -116,112 +116,112 @@ function myInfo11() {
 //BASIC--------------------------------------------------------------------------
 var inputToCheck = document.getElementById("basic");
 inputToCheck.initialValue = inputToCheck.value || "";
-inputToCheck.addEventListener("focus", function (e) {
+inputToCheck.addEventListener("focus", function(e) {
   this.value == this.initialValue ? (this.value = "") : "";
 });
-inputToCheck.addEventListener("blur", function (e) {
+inputToCheck.addEventListener("blur", function(e) {
   this.value == "" ? (this.value = this.initialValue) : "";
 });
 //SHIFT--------------------------------------------------------------------------
 var inputToCheck = document.getElementById("shift");
 inputToCheck.initialValue = inputToCheck.value || "";
-inputToCheck.addEventListener("focus", function (e) {
+inputToCheck.addEventListener("focus", function(e) {
   this.value == this.initialValue ? (this.value = "") : "";
 });
-inputToCheck.addEventListener("blur", function (e) {
+inputToCheck.addEventListener("blur", function(e) {
   this.value == "" ? (this.value = this.initialValue) : "";
 });
 //PB--------------------------------------------------------------------------
 var inputToCheck = document.getElementById("pb");
 inputToCheck.initialValue = inputToCheck.value || "";
-inputToCheck.addEventListener("focus", function (e) {
+inputToCheck.addEventListener("focus", function(e) {
   this.value == this.initialValue ? (this.value = "") : "";
 });
-inputToCheck.addEventListener("blur", function (e) {
+inputToCheck.addEventListener("blur", function(e) {
   this.value == "" ? (this.value = this.initialValue) : "";
 });
 //DOBI--------------------------------------------------------------------------
 var inputToCheck = document.getElementById("dobi");
 inputToCheck.initialValue = inputToCheck.value || "";
-inputToCheck.addEventListener("focus", function (e) {
+inputToCheck.addEventListener("focus", function(e) {
   this.value == this.initialValue ? (this.value = "") : "";
 });
-inputToCheck.addEventListener("blur", function (e) {
+inputToCheck.addEventListener("blur", function(e) {
   this.value == "" ? (this.value = this.initialValue) : "";
 });
 //MAKAN--------------------------------------------------------------------------
 var inputToCheck = document.getElementById("makan");
 inputToCheck.initialValue = inputToCheck.value || "";
-inputToCheck.addEventListener("focus", function (e) {
+inputToCheck.addEventListener("focus", function(e) {
   this.value == this.initialValue ? (this.value = "") : "";
 });
-inputToCheck.addEventListener("blur", function (e) {
+inputToCheck.addEventListener("blur", function(e) {
   this.value == "" ? (this.value = this.initialValue) : "";
 });
 //OT1--------------------------------------------------------------------------
 var inputToCheck = document.getElementById("ot");
 inputToCheck.initialValue = inputToCheck.value || "";
 
-inputToCheck.addEventListener("focus", function (e) {
+inputToCheck.addEventListener("focus", function(e) {
   this.value == this.initialValue ? (this.value = "") : "";
 });
 
-inputToCheck.addEventListener("blur", function (e) {
+inputToCheck.addEventListener("blur", function(e) {
   this.value == "" ? (this.value = this.initialValue) : "";
 });
 //OT2--------------------------------------------------------------------------
-var inputToCheck = document.getElementById("odot_1");
-inputToCheck.initialValue = inputToCheck.value || "";
+//var inputToCheck = document.getElementById("odot_1");
+//inputToCheck.initialValue = inputToCheck.value || "";
 
-inputToCheck.addEventListener("focus", function (e) {
-  this.value == this.initialValue ? (this.value = "") : "";
-});
+//inputToCheck.addEventListener("focus", function (e) {
+//  this.value == this.initialValue ? (this.value = "") : "";
+//});
 
-inputToCheck.addEventListener("blur", function (e) {
-  this.value == "" ? (this.value = this.initialValue) : "";
-});
+//inputToCheck.addEventListener("blur", function (e) {
+//  this.value == "" ? (this.value = this.initialValue) : "";
+//});
 //OT3--------------------------------------------------------------------------
 var inputToCheck = document.getElementById("odot_2");
 inputToCheck.initialValue = inputToCheck.value || "";
 
-inputToCheck.addEventListener("focus", function (e) {
+inputToCheck.addEventListener("focus", function(e) {
   this.value == this.initialValue ? (this.value = "") : "";
 });
 
-inputToCheck.addEventListener("blur", function (e) {
+inputToCheck.addEventListener("blur", function(e) {
   this.value == "" ? (this.value = this.initialValue) : "";
 });
 //OT4--------------------------------------------------------------------------
 var inputToCheck = document.getElementById("odot_3");
 inputToCheck.initialValue = inputToCheck.value || "";
 
-inputToCheck.addEventListener("focus", function (e) {
+inputToCheck.addEventListener("focus", function(e) {
   this.value == this.initialValue ? (this.value = "") : "";
 });
 
-inputToCheck.addEventListener("blur", function (e) {
+inputToCheck.addEventListener("blur", function(e) {
   this.value == "" ? (this.value = this.initialValue) : "";
 });
 //OT5--------------------------------------------------------------------------
 var inputToCheck = document.getElementById("ph_1");
 inputToCheck.initialValue = inputToCheck.value || "";
 
-inputToCheck.addEventListener("focus", function (e) {
+inputToCheck.addEventListener("focus", function(e) {
   this.value == this.initialValue ? (this.value = "") : "";
 });
 
-inputToCheck.addEventListener("blur", function (e) {
+inputToCheck.addEventListener("blur", function(e) {
   this.value == "" ? (this.value = this.initialValue) : "";
 });
 //OT6--------------------------------------------------------------------------
 var inputToCheck = document.getElementById("ph_2");
 inputToCheck.initialValue = inputToCheck.value || "";
 
-inputToCheck.addEventListener("focus", function (e) {
+inputToCheck.addEventListener("focus", function(e) {
   this.value == this.initialValue ? (this.value = "") : "";
 });
 
-inputToCheck.addEventListener("blur", function (e) {
+inputToCheck.addEventListener("blur", function(e) {
   this.value == "" ? (this.value = this.initialValue) : "";
 });
 
@@ -231,8 +231,8 @@ function myFunction() {
 
   document.getElementById("output1").innerHTML =
     "= (asas + syif) &#247; 26 &#247; 8 x 1.5"; //reset formula ot1
-  document.getElementById("output2").innerHTML =
-    "= (asas + syif) &#247; 26 &#247; 8 x 0.5"; //reset formula ot2
+  //document.getElementById("output2").innerHTML =
+  //  "= (asas + syif) &#247; 26 &#247; 8 x 0.5"; //reset formula ot2
   document.getElementById("output3").innerHTML =
     "= (asas + syif) &#247; 26 &#247; 8 x 1.0"; //reset formula ot3
   document.getElementById("output4").innerHTML =
@@ -248,7 +248,7 @@ function myFunction() {
   document.getElementById("output13").innerHTML = "+ RM 0.00"; //reset dobi
   document.getElementById("output17").innerHTML = "+ RM 0.00"; //reset makan
   document.getElementById("output7").innerHTML = "+ RM 0.00"; //reset ot1
-  document.getElementById("output8").innerHTML = "+ RM 0.00"; //reset ot2
+  //  document.getElementById("output8").innerHTML = "+ RM 0.00"; //reset ot2
   document.getElementById("output15").innerHTML = "+ RM 0.00"; //reset ot3
   document.getElementById("output16").innerHTML = "+ RM 0.00"; //reset ot4
   document.getElementById("output9").innerHTML = "+ RM 0.00"; //reset ot5
@@ -269,7 +269,7 @@ button.addEventListener("click", () => {
 
   const ot = parseInt(document.getElementById("ot").value); // ot1
 
-  const odot_1 = parseInt(document.getElementById("odot_1").value); // ot2
+  // const odot_1 = parseInt(document.getElementById("odot_1").value); // ot2
   const odot_2 = parseInt(document.getElementById("odot_2").value); // ot3
   const odot_3 = parseInt(document.getElementById("odot_3").value); // ot4
 
@@ -288,7 +288,7 @@ button.addEventListener("click", () => {
   //total
   const result = document.getElementById("output"); // basic
   const result7 = document.getElementById("output7"); // ot1
-  const result8 = document.getElementById("output8"); //ot2
+  //  const result8 = document.getElementById("output8"); //ot2
   const result15 = document.getElementById("output15"); //ot3
   const result16 = document.getElementById("output16"); //ot4
   const result9 = document.getElementById("output9"); // OT5
@@ -304,10 +304,10 @@ button.addEventListener("click", () => {
   /* contoh const bmi = (weight / ((height*height)/10000)).toFixed(2); */
   /* const basic_ot = ((basic / 26 / 8 * 1.5 * ot) + basic).toFixed(2); */
   let ot_1 = (((basic + shift) / 26 / 8) * 1.5 * ot).toFixed(2); // kira jumlah ot1
-  let ot_2 = (((basic + shift) / 26 / 8) * 0.5 * odot_1).toFixed(2); //kira jumlah ot2
-  let ot_3 = (((basic + shift) / 26 / 8) * 1 * odot_2).toFixed(2); //kira jumlah ot3
+  //  let ot_2 = (((basic + shift) / 26 / 8) * 0.5 * odot_1).toFixed(2); //kira jumlah ot2
+  let ot_3 = (((basic + shift) / 26) * 1 * odot_2).toFixed(2); //kira jumlah ot3
   let ot_4 = (((basic + shift) / 26 / 8) * 2 * odot_3).toFixed(2); //kira jumlah ot4
-  let ot_5 = (((basic + shift) / 26 / 8) * 2 * ph_1).toFixed(2); //kira jumlah ot5
+  let ot_5 = (((basic + shift) / 26) * 2 * ph_1).toFixed(2); //kira jumlah ot5
   let ot_6 = (((basic + shift) / 26 / 8) * 3 * ph_2).toFixed(2); //kira jumlah ot6
   let e_basic = (1 * basic).toFixed(2); //kira jumlah basic
   let e_shift = (1 * shift).toFixed(2); //kira jumlah elaun shift
@@ -316,10 +316,10 @@ button.addEventListener("click", () => {
   let e_makan = (10 * makan).toFixed(2); //kira jumlah elaun makan
 
   let t_ot_1 = ((basic + shift) / 26 / 8) * 1.5 * ot;
-  let t_ot_2 = ((basic + shift) / 26 / 8) * 0.5 * odot_1;
-  let t_ot_3 = ((basic + shift) / 26 / 8) * 1 * odot_2;
+  // let t_ot_2 = ((basic + shift) / 26 / 8) * 0.5 * odot_1;
+  let t_ot_3 = ((basic + shift) / 26) * 1 * odot_2;
   let t_ot_4 = ((basic + shift) / 26 / 8) * 2 * odot_3;
-  let t_ot_5 = ((basic + shift) / 26 / 8) * 2 * ph_1;
+  let t_ot_5 = ((basic + shift) / 26) * 2 * ph_1;
   let t_ot_6 = ((basic + shift) / 26 / 8) * 3 * ph_2;
   let t_e_makan = 10 * makan;
   let gaji = (
@@ -329,7 +329,7 @@ button.addEventListener("click", () => {
     dobi +
     t_e_makan +
     t_ot_1 +
-    t_ot_2 +
+    // t_ot_2 +
     t_ot_3 +
     t_ot_4 +
     t_ot_5 +
@@ -338,7 +338,7 @@ button.addEventListener("click", () => {
 
   // kira formula----------------------------------------------------------------
   const ot1 = (((basic + shift) / 26 / 8) * 1.5).toFixed(2); //kira jumlah ot1
-  const ot2 = (((basic + shift) / 26 / 8) * 0.5).toFixed(2); //kira jumlah ot2
+  //  const ot2 = (((basic + shift) / 26 / 8) * 0.5).toFixed(2); //kira jumlah ot2
   const ot3 = (((basic + shift) / 26 / 8) * 1.0).toFixed(2); //kira jumlah ot3
   const ot4 = (((basic + shift) / 26 / 8) * 2).toFixed(2); //kira jumlah ot4
   const ot5 = (((basic + shift) / 26 / 8) * 2).toFixed(2); //kira jumlah ot5
@@ -350,9 +350,9 @@ button.addEventListener("click", () => {
   if (ot1) {
     result1.innerHTML = "= RM " + ot1 + " ";
   }
-  if (ot2) {
-    result2.innerHTML = "= RM " + ot2 + " ";
-  }
+  //  if (ot2) {
+  //   result2.innerHTML = "= RM " + ot2 + " ";
+  //  }
   if (ot3) {
     result3.innerHTML = "= RM " + ot3 + " ";
   }
@@ -386,9 +386,9 @@ button.addEventListener("click", () => {
     result7.innerHTML = "+ RM " + ot_1; //untuk tayang 0t1
   }
 
-  if (ot_2) {
-    result8.innerHTML = "+ RM " + ot_2; //untuk tayang 0t2
-  }
+  // if (ot_2) {
+  //  result8.innerHTML = "+ RM " + ot_2; //untuk tayang 0t2
+  //  }
   if (ot_3) {
     result15.innerHTML = "+ RM " + ot_3; //untuk tayang 0t3
   }
