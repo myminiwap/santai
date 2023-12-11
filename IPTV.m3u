@@ -1,0 +1,82 @@
+﻿#EXTM3U x-tvg-url="https://weareblahs.github.io/epg/mytv.xml" url-tvg="https://weareblahs.github.io/epg/compressed/mytv.xml.gz" refresh="1440" max-conn="1" refresh="24"
+#EXTINF:-1 tvg-id="101"tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/tv1_bckg.png"tvg-chno="101"group-title="myFreeview: TV":http-referrer="":http-user-agent="",TV1
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/manifest.mpd
+#EXTINF:-1 tvg-id="102"tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/SALURAN_1920x1080px_TV2.jpg"tvg-chno="102"group-title="myFreeview: TV":http-referrer="":http-user-agent="",TV2
+https://live.mana2.my/Tv2/tracks-v1a1/mono.m3u8?token=1702290932-23ad68e371ca42b0b936a4fee10db503-0-d2b846208283f23c4fbe15fb3c41484b&auth_key=1702290932-23ad68e371ca42b0b936a4fee10db503-0-aa13fea2f341c01e4ed213e71d2807cb
+#EXTINF:-1 tvg-id="103"tvg-logo="https://headend-api.tonton.com.my/v100/imageHelper.php?id=6420323:378:CHANNEL:IMAGE:png&w=200&appID=TONTON"tvg-chno="103"group-title="myFreeview: TV":http-referrer="https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056637&autoplay=1&mute=0":http-user-agent="",TV3
+#EXTVLCOPT:http-referrer=https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056637&autoplay=1&mute=0
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton1_720p/index.m3u8
+#EXTINF:-1 tvg-id="104"tvg-logo="https://de-digital-fortress-stg-assets.eco.astro.com.my/staging/2a4ea8d2d2e75e576b4a7de761113bc3.png"tvg-chno="104"group-title="myFreeview: TV":http-referrer="":http-user-agent="",AWANI
+https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index_3.m3u8
+#EXTINF:-1 tvg-id="105"tvg-logo="https://iili.io/D89jSI.png"tvg-chno="105"group-title="myFreeview: TV":http-referrer="":http-user-agent="",IKIM
+https://edge-sg1.vediostream.com/abr/tvikim/live/tvikim_360p/chunks.m3u8?nimblesessionid=30518653
+#EXTINF:-1 tvg-id="106"tvg-logo="https://www.xtra.com.my/live-tv/assets/img/dramasangat.png"tvg-chno="106"group-title="myFreeview: TV":http-referrer="https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056648&autoplay=1&mute=0":http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",Drama Sangat
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056648&autoplay=1&mute=0
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton5_720p/index.m3u8
+#EXTINF:-1 tvg-id="107"tvg-logo="https://headend-api.tonton.com.my/v100/imageHelper.php?id=6420324:378:CHANNEL:IMAGE:png&w=200&appID=TONTON"tvg-chno="107"group-title="myFreeview: TV":http-referrer="https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056641&autoplay=1&mute=0":http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",DidikTV KPM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056641&autoplay=1&mute=0
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton2_720p/index.m3u8
+#EXTINF:-1 tvg-id="108"tvg-logo="https://headend-api.tonton.com.my/v100/imageHelper.php?id=6420325:378:CHANNEL:IMAGE:png&w=200&appID=TONTON"tvg-chno="108"group-title="myFreeview: TV":http-referrer="https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056645&autoplay=1&mute=0":http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",8TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056645&autoplay=1&mute=0
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton3_720p/index.m3u8
+#EXTINF:-1 tvg-id="109"tvg-logo="https://headend-api.tonton.com.my/v100/imageHelper.php?id=6420326:378:CHANNEL:IMAGE:png&w=200&appID=TONTON"tvg-chno="109"group-title="myFreeview: TV":http-referrer="https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056646&autoplay=1&mute=0":http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",TV9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056646&autoplay=1&mute=0
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton4_720p/index.m3u8
+#EXTINF:-1 tvg-id="110"tvg-logo="https://rtm-images.glueapi.io/320x0/live_channel/SALURAN_1920x1080px_TVOKEY.jpg"tvg-chno="110"group-title="myFreeview: TV":http-referrer="":http-user-agent="",OKEY
+https://d25tgymtnqzu8s.cloudfront.net/smil:okey/manifest.mpd
+#EXTINF:-1 tvg-id="111"tvg-logo="https://i.ibb.co/JcTZMLX/image.png"tvg-chno="111"group-title="myFreeview: TV":http-referrer="":http-user-agent="",Sukan RTM
+https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
+#EXTINF:-1 tvg-id="112"tvg-logo="https://www.suketv.com/sitepad-data/uploads/2023/06/logo-STV.png"tvg-chno="112"group-title="myFreeview: TV":http-referrer="":http-user-agent="",SUKE TV
+https://live.mana2.my/SukeTv/index.m3u8?auth_key=1702293063-45eecd8e7b6f4e7881fb6f75ff7fa26b-0-97a45798ad6d9f9516199b9d52b204a9&token=1702293063-45eecd8e7b6f4e7881fb6f75ff7fa26b-0-97a45798ad6d9f9516199b9d52b204a9
+#EXTINF:-1 tvg-id="113"tvg-logo="https://i.ibb.co/vHcWdsP/image.png"tvg-chno="113"group-title="myFreeview: TV":http-referrer="":http-user-agent="",TV6
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/manifest.mpd
+#EXTINF:-1 tvg-id="114"tvg-logo="https://api.mana2.my/image/image_gallery?img_id=198648103"tvg-chno="114"group-title="myFreeview: TV":http-referrer="":http-user-agent="",TV Alhijrah
+https://live.mana2.my/TvAlhijrah/tracks-v1a1/mono.m3u8?token=1702279390-f924c026eb4c4b32ac413fd35cc2a055-0-f5288353aa238e11d642a354fe3e946c&auth_key=1702279390-f924c026eb4c4b32ac413fd35cc2a055-0-e5a75778f09e5220ff451105eb7f1ab7
+#EXTINF:-1 tvg-id="115"tvg-logo="https://api.mana2.my/image/image_gallery?img_id=200384923"tvg-chno="115"group-title="myFreeview: TV":http-referrer="":http-user-agent="",Bernama
+https://live.mana2.my/Bernama/tracks-v1a1/mono.m3u8?token=1702292864-784762f2c6ff4784827dd2a4f45bc04f-0-ff499aa44c05d81694b82fef81d67983&auth_key=1702292864-784762f2c6ff4784827dd2a4f45bc04f-0-0b9ff1648833ce881148d0eca0345d2b
+#EXTINF:-1 tvg-id="116"tvg-logo="https://api.mana2.my/image/image_gallery?img_id=217859245"tvg-chno="116"group-title="myFreeview: TV":http-referrer="":http-user-agent="",TVS
+https://vod.mana2.my/TvS/tracks-v2a1/index-1702273500-1800.m3u8?token=1702293812-bbeacb05002a4fd58d2ef01f732dd11e-0-5e3e921c7f30c8782bc62b3f0961054f&auth_key=1702293812-bbeacb05002a4fd58d2ef01f732dd11e-0-a1bb4d2278e5716ee98419574713455a
+#EXTINF:-1 tvg-id="117"tvg-logo="https://berita.rtm.gov.my/images/logobes.jpg"tvg-chno="117"group-title="myFreeview: TV":http-referrer="":http-user-agent="",Berita RTM
+https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
+
+#EXTINF:-1 tvg-id="118"tvg-logo="https://www.channelnewsasia.com/sites/default/themes/mc_cna_theme/images/logo.svg"tvg-chno="118"group-title="myFreeview: TV":http-referrer="":http-user-agent="",CNA
+https://live.mana2.my/CNA/tracks-v3a1/mono.m3u8?token=1702294103-c37027f5ad5c47c3aed5e8658e4e0f24-0-969b566afaa8a657d985318dfdab8e6a&auth_key=1702294103-c37027f5ad5c47c3aed5e8658e4e0f24-0-08af528a89b98e68d24614c3cdd55869
+
+#EXTINF:-1 tvg-id="119"tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2015/04/14121017/My-Cinema-Europe.jpg"tvg-chno="119"group-title="myFreeview: TV":http-referrer="":http-user-agent="",MCE
+https://live.mana2.my/MyCinemaEurope/tracks-v3a1/mono.m3u8?token=1702294249-a9cc1b4ff5004707a4c98aede3afec41-0-22f854a44b0d7b275b0ddf1d28d71afc&auth_key=1702294249-a9cc1b4ff5004707a4c98aede3afec41-0-fd2b5496574d460bf90ccd6ba53eccf9
+
+#EXTINF:-1 tvg-id="120"tvg-logo="https://selangortv.my/wp-content/uploads/2020/10/cropped-SelangorTV2.png"tvg-chno="120"group-title="myFreeview: TV":http-referrer="":http-user-agent="",SELANGOR TV
+https://live.mana2.my/SelangorTv/tracks-v1a1/mono.m3u8?token=1702294586-d18d21999a5b4064a07b8fe74c624db9-0-a9f1a5c7f0d24e85453aa3ede3c93412&auth_key=1702294586-d18d21999a5b4064a07b8fe74c624db9-0-9f214790c4613bb3e149ca26a8040db8
+
+#EXTINF:-1 tvg-id="701"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-nasional.21cbcdbf.jpg"tvg-chno="701"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Nasional FM
+https://23693.live.streamtheworld.com/NASIONAL_FMAAC.aac
+#EXTINF:-1 tvg-id="702"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-traxx.0a686746.jpg"tvg-chno="702"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Traxx FM
+https://23733.live.streamtheworld.com/TRAXX_FMAAC.aac
+#EXTINF:-1 tvg-id="705"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-klasik.c7b4564b.jpg"tvg-chno="705"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Radio Klasik
+https://23693.live.streamtheworld.com/RADIO_KLASIKAAC.aac
+#EXTINF:-1 tvg-id="706"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-asyik.6ad70c17.jpg"tvg-chno="706"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Asyik FM
+https://23693.live.streamtheworld.com/ASYIK_FMAAC.aac
+#EXTINF:-1 tvg-id="707"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-sabah.1c891dd7.jpg"tvg-chno="707"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Sabah FM
+https://22273.live.streamtheworld.com/SABAH_FMAAC.aac
+#EXTINF:-1 tvg-id="708"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-sabah-v.8109b1c6.jpg"tvg-chno="708"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Sabah VFM
+https://23733.live.streamtheworld.com/SABAH_VFMAAC.aac
+#EXTINF:-1 tvg-id="709"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-sarawak.85bf48b9.jpg"tvg-chno="709"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Sarawak FM
+https://23693.live.streamtheworld.com/SARAWAK_FMAAC.aac
+#EXTINF:-1 tvg-id=""tvg-logo="https://api.mana2.my/image/image_gallery?img_id=229151117"tvg-chno="711"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Bernama Radio
+https://live.mana2.my/BernamaRadio/index.m3u8|User-Agent=Mozilla
+#EXTINF:-1 tvg-id=""tvg-logo="https://assets-mpa.hotfm.audio/media/Logo/profile_photo_1000x1000-01.jpg"tvg-chno="721"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Hot FM
+https://mediaprima.rastream.com/mediaprima-hotfm
+#EXTINF:-1 tvg-id=""tvg-logo="https://assets-mpa.kool101.audio/media/Logo/profile_photo_1000x1000-03.jpg"tvg-chno="722"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Kool 101
+https://mediaprima.rastream.com/mediaprima-koolfm
+#EXTINF:-1 tvg-id=""tvg-logo="https://assets-mpa.flyfm.audio/media/Logo/profile_photo_1000x1000-04.jpg"tvg-chno="723"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Fly FM
+https://mediaprima.rastream.com/mediaprima-flyfm
+#EXTINF:-1 tvg-id=""tvg-logo="https://assets-mpa.8fm.audio/media/Logo/profile_photo_1000x1000-05.jpg"tvg-chno="724"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",8FM
+https://mediaprima.rastream.com/mediaprima-onefm
+#EXTINF:-1 tvg-id=""tvg-logo="https://assets.audioplus.audio/2021/12/profile_photo_1000x1000-03-300x300.jpg"tvg-chno="725"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Molek FM
+https://mediaprima.rastream.com/mediaprima-molekfm
+#EXTINF:-1 tvg-id=""tvg-logo="https://api.mana2.my/image/image_gallery?img_id=233559647"tvg-chno="726"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Manis FM
+https://live.mana2.my/ManisFm/index.m3u8|User-Agent=Mozilla
