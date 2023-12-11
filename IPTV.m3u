@@ -1,0 +1,21 @@
+﻿#EXTM3U
+
+#EXTINF:-1 tvg-id="AstroAwani.my" tvg-name="TV9" tvg-country="MY" tvg-language="Malay" tvg-logo="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/95-512.png" group-title="News",TV9
+https://live-streams-ssai-01.tonton.com.my/live/2020783a-0303-401a-9c92-b7c3c9108c0b/live.isml/live-audio_0=96000-video=4800000.m3u8
+
+#EXTINF:-1 tvg-id="AstroAwani.my" tvg-name="TVAH" tvg-country="MY" tvg-language="Malay" tvg-logo="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/95-512.png" group-title="News",TVAH
+https://live.mana2.my/TvAlhijrah/tracks-v1a1/mono.m3u8?token=1702279390-f924c026eb4c4b32ac413fd35cc2a055-0-f5288353aa238e11d642a354fe3e946c&auth_key=1702279390-f924c026eb4c4b32ac413fd35cc2a055-0-e5a75778f09e5220ff451105eb7f1ab7
+
+#EXTINF:-1 tvg-id="AstroAwani.my" tvg-name="AWANI" tvg-country="MY" tvg-language="Malay" tvg-logo="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/95-512.png" group-title="News",AWANI
+https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index_3.m3u8
+
+#EXTINF:-1 tvg-id="AstroAwani.my" tvg-name="IKIM" tvg-country="MY" tvg-language="Malay" tvg-logo="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/95-512.png" group-title="News",IKIM
+https://edge-sg1.vediostream.com/abr/tvikim/live/tvikim_source/chunks.m3u8?nimblesessionid=30515304
+
+#EXTINF:-1 tvg-id="AstroAwani.my" tvg-name="TV3" tvg-country="MY" tvg-language="Malay" tvg-logo="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/95-512.png" group-title="News",TV3
+https://live-streams-ssai-01.tonton.com.my/live/2dd2b7cd-1b34-4871-b669-57b5c9beca23/live.isml/.m3u8
+
+#EXTINF:-1 tvg-id="AstroAwani.my" tvg-name="TV03" tvg-country="MY" tvg-language="Malay" tvg-logo="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/95-512.png" group-title="News",TV03
+https://live-streams-ssai-01.tonton.com.my/live/2dd2b7cd-1b34-4871-b669-57b5c9beca23/live.isml/live-audio_0=64000-video=4800000.m3u8
+
+
