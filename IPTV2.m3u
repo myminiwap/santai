@@ -1,0 +1,74 @@
+﻿#EXTM3U x-tvg-url="https://weareblahs.github.io/epg/mytv.xml" url-tvg="https://weareblahs.github.io/epg/compressed/mytv.xml.gz" refresh="1440" max-conn="1" refresh="24"
+#EXTINF:-1 tvg-id="1"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/tv3.png"tvg-chno="1"group-title="myFreeview: BACKUP":http-referrer="":http-user-agent="",TV3 backup
+https://live-streams-ssai-01.tonton.com.my/live/2dd2b7cd-1b34-4871-b669-57b5c9beca23/live.isml/live-audio_0=64000-video=4800000.m3u8
+#EXTINF:-1 tvg-id="101"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/tv1.png"tvg-chno="101"group-title="myFreeview: TV":http-referrer="":http-user-agent="",TV1
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/manifest.mpd
+#EXTINF:-1 tvg-id="102"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/tv2.png"tvg-chno="102"group-title="myFreeview: TV":http-referrer="":http-user-agent="",TV2
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/manifest.mpd
+#EXTINF:-1 tvg-id="103"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/tv3.png"tvg-chno="103"group-title="myFreeview: TV":http-referrer="https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056637&autoplay=1&mute=0":http-user-agent="",TV3
+#EXTVLCOPT:http-referrer=https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056637&autoplay=1&mute=0
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton1_720p/index.m3u8
+#EXTINF:-1 tvg-id="104"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/awani.png"tvg-chno="104"group-title="myFreeview: TV":http-referrer="":http-user-agent="",AWANI
+https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index_3.m3u8
+#EXTINF:-1 tvg-id="105"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/tvikim.png"tvg-chno="105"group-title="myFreeview: TV":http-referrer="":http-user-agent="",IKIM
+https://edge-sg1.vediostream.com/abr/tvikim/live/tvikim_source/chunks.m3u8?nimblesessionid=30544562
+#EXTINF:-1 tvg-id="106"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/drama.png"tvg-chno="106"group-title="myFreeview: TV":http-referrer="https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056648&autoplay=1&mute=0":http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",Drama Sangat
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056648&autoplay=1&mute=0
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton5_720p/index.m3u8
+#EXTINF:-1 tvg-id="107"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/didik.png"tvg-chno="107"group-title="myFreeview: TV":http-referrer="https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056641&autoplay=1&mute=0":http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",DidikTV KPM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056641&autoplay=1&mute=0
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton2_720p/index.m3u8
+#EXTINF:-1 tvg-id="108"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/tv8.png"tvg-chno="108"group-title="myFreeview: TV":http-referrer="https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056645&autoplay=1&mute=0":http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",8TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056645&autoplay=1&mute=0
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton3_720p/index.m3u8
+#EXTINF:-1 tvg-id="109"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/tv9.png"tvg-chno="109"group-title="myFreeview: TV":http-referrer="https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056646&autoplay=1&mute=0":http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",TV9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://live-xtra-sg1.global.ssl.fastly.net/embed/index.html?vid=11056646&autoplay=1&mute=0
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton4_720p/index.m3u8
+#EXTINF:-1 tvg-id="110"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/okey.png"tvg-chno="110"group-title="myFreeview: TV":http-referrer="":http-user-agent="",OKEY
+https://d25tgymtnqzu8s.cloudfront.net/smil:okey/manifest.mpd
+#EXTINF:-1 tvg-id="111"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/sukan.png"tvg-chno="111"group-title="myFreeview: TV":http-referrer="":http-user-agent="",Sukan RTM
+https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
+#EXTINF:-1 tvg-id="112"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/sukan.png"tvg-chno="112"group-title="myFreeview: INDO":http-referrer="":http-user-agent="",Trans TV
+https://video.detik.com/trans7/smil:trans7.smil/chunklist_w243349811_b744100_sleng.m3u8
+#EXTINF:-1 tvg-id="113"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/tv6.png"tvg-chno="113"group-title="myFreeview: TV":http-referrer="":http-user-agent="",TV6
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/manifest.mpd
+#EXTINF:-1 tvg-id="114"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/tvah.png"tvg-chno="114"group-title="myFreeview: TV":http-referrer="":http-user-agent="",TV Alhijrah
+https://live.mana2.my/TvAlhijrah/tracks-v1a1/mono.m3u8?token=1702373363-ce5af8b18f144274943a9dd1c697c6e0-0-10fd2eaf017eeee748197c7644b5256c&auth_key=1702373363-ce5af8b18f144274943a9dd1c697c6e0-0-8a296e88d44f0afc6bcd5fb1fc3e5a3f
+#EXTINF:-1 tvg-id="116"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/tvs.png"tvg-chno="116"group-title="myFreeview: TV":http-referrer="":http-user-agent="",TVS
+https://stream.smg.my/live/tvs_1080p2628kbs/index.m3u8
+#EXTINF:-1 tvg-id="117"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/berita.png"tvg-chno="117"group-title="myFreeview: TV":http-referrer="":http-user-agent="",Berita RTM
+https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
+#EXTINF:-1 tvg-id="2"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/tv9.png"tvg-chno="2"group-title="myFreeview: BACKUP":http-referrer="":http-user-agent="",TV9 backup
+https://live-streams-ssai-01.tonton.com.my/live/2020783a-0303-401a-9c92-b7c3c9108c0b/live.isml/live-audio_0=96000-video=4800000.m3u8
+#EXTINF:-1 tvg-id="701"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-nasional.21cbcdbf.jpg"tvg-chno="701"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Nasional FM
+https://23693.live.streamtheworld.com/NASIONAL_FMAAC.aac
+#EXTINF:-1 tvg-id="702"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-traxx.0a686746.jpg"tvg-chno="702"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Traxx FM
+https://23733.live.streamtheworld.com/TRAXX_FMAAC.aac
+#EXTINF:-1 tvg-id="705"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-klasik.c7b4564b.jpg"tvg-chno="705"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Radio Klasik
+https://23693.live.streamtheworld.com/RADIO_KLASIKAAC.aac
+#EXTINF:-1 tvg-id="706"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-asyik.6ad70c17.jpg"tvg-chno="706"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Asyik FM
+https://23693.live.streamtheworld.com/ASYIK_FMAAC.aac
+#EXTINF:-1 tvg-id="707"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-sabah.1c891dd7.jpg"tvg-chno="707"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Sabah FM
+https://22273.live.streamtheworld.com/SABAH_FMAAC.aac
+#EXTINF:-1 tvg-id="708"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-sabah-v.8109b1c6.jpg"tvg-chno="708"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Sabah VFM
+https://23733.live.streamtheworld.com/SABAH_VFMAAC.aac
+#EXTINF:-1 tvg-id="709"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-sarawak.85bf48b9.jpg"tvg-chno="709"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Sarawak FM
+https://23693.live.streamtheworld.com/SARAWAK_FMAAC.aac
+#EXTINF:-1 tvg-id="711"tvg-logo="https://api.mana2.my/image/image_gallery?img_id=229151117"tvg-chno="711"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Bernama Radio
+https://live.mana2.my/BernamaRadio/index.m3u8|User-Agent=Mozilla
+#EXTINF:-1 tvg-id="721"tvg-logo="https://assets-mpa.hotfm.audio/media/Logo/profile_photo_1000x1000-01.jpg"tvg-chno="721"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Hot FM
+https://mediaprima.rastream.com/mediaprima-hotfm
+#EXTINF:-1 tvg-id="722"tvg-logo="https://assets-mpa.kool101.audio/media/Logo/profile_photo_1000x1000-03.jpg"tvg-chno="722"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Kool 101
+https://mediaprima.rastream.com/mediaprima-koolfm
+#EXTINF:-1 tvg-id="723"tvg-logo="https://assets-mpa.flyfm.audio/media/Logo/profile_photo_1000x1000-04.jpg"tvg-chno="723"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Fly FM
+https://mediaprima.rastream.com/mediaprima-flyfm
+#EXTINF:-1 tvg-id="724"tvg-logo="https://assets-mpa.8fm.audio/media/Logo/profile_photo_1000x1000-05.jpg"tvg-chno="724"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",8FM
+https://mediaprima.rastream.com/mediaprima-onefm
+#EXTINF:-1 tvg-id="725"tvg-logo="https://assets.audioplus.audio/2021/12/profile_photo_1000x1000-03-300x300.jpg"tvg-chno="725"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Molek FM
+https://mediaprima.rastream.com/mediaprima-molekfm
+#EXTINF:-1 tvg-id="726"tvg-logo="https://api.mana2.my/image/image_gallery?img_id=233559647"tvg-chno="726"group-title="myFreeview: Radio":http-referrer="":http-user-agent="",Manis FM
+https://live.mana2.my/ManisFm/index.m3u8|User-Agent=Mozilla
