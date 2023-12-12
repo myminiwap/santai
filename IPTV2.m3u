@@ -44,15 +44,19 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/manifest.mpd
 https://stream.smg.my/live/tvs_1080p2628kbs/index.m3u8
 #EXTINF:-1 tvg-id="117"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/berita.png"tvg-chno="117"group-title="myFreeview: TV"provider="https://www.livetvmalaysia.online/":http-referrer="":http-user-agent="",Berita RTM
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
-#EXTINF:-1 tvg-id="118"tvg-logo="https://raw.githubusercontent.com/myminiwap/IPTV/main/berita.png"tvg-chno="118"group-title="myFreeview: Indo"provider="https://www.transtv.co.id/live":http-referrer="":http-user-agent="",Trans TV
+#EXTINF:-1 tvg-id="118"tvg-logo="https://www.transtv.co.id/layout/new/src/images/logo/01-ttv.png"tvg-chno="118"group-title="myFreeview: Indo"provider="https://www.transtv.co.id/live":http-referrer="":http-user-agent="",Trans TV
 https://video.detik.com/transtv/smil:transtv.smil/chunklist_w1329676998_b744100_sleng.m3u8
+#EXTINF:-1 tvg-id="119"tvg-logo="https://www.transtv.co.id/layout/new/src/images/logo/01-t7.png"tvg-chno="119"group-title="myFreeview: Indo"provider="https://20.detik.com/live/trans-7":http-referrer="":http-user-agent="",Trans7
+https://video.detik.com/trans7/smil:trans7.smil/chunklist_w1755340671_b744100_sleng.m3u8
+#EXTINF:-1 tvg-id="120"tvg-logo="https://iili.io/H8u9ikF.png"tvg-chno="120"group-title="myFreeview: Indo"provider="https://20.detik.com/live/cnn-tv":http-referrer="":http-user-agent="",CNN Indo
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w617577975_b384000_sleng.m3u8
 #EXTINF:-1 tvg-id="701"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-nasional.21cbcdbf.jpg"tvg-chno="701"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Nasional FM
 https://23693.live.streamtheworld.com/NASIONAL_FMAAC.aac
 #EXTINF:-1 tvg-id="702"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-traxx.0a686746.jpg"tvg-chno="702"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Traxx FM
 https://23733.live.streamtheworld.com/TRAXX_FMAAC.aac
 #EXTINF:-1 tvg-id="705"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-klasik.c7b4564b.jpg"tvg-chno="705"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Radio Klasik
 https://23693.live.streamtheworld.com/RADIO_KLASIKAAC.aac
-#EXTINF:-1 tvg-id="706"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-asyik.6ad70c17.jpg"tvg-chno="706"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Asyik FM
+#EXTINF:-1 tvg-id="706"tvg-logo="https://asyikfm.rtm.gov.my/storage/app/uploads/public/610/363/a10/610363a102023061998674.png"tvg-chno="706"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Asyik FM
 https://23693.live.streamtheworld.com/ASYIK_FMAAC.aac
 #EXTINF:-1 tvg-id="707"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-sabah.1c891dd7.jpg"tvg-chno="707"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Sabah FM
 https://22273.live.streamtheworld.com/SABAH_FMAAC.aac
@@ -60,8 +64,6 @@ https://22273.live.streamtheworld.com/SABAH_FMAAC.aac
 https://23733.live.streamtheworld.com/SABAH_VFMAAC.aac
 #EXTINF:-1 tvg-id="709"tvg-logo="https://rtmklik.rtm.gov.my/img/radio-sarawak.85bf48b9.jpg"tvg-chno="709"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Sarawak FM
 https://23693.live.streamtheworld.com/SARAWAK_FMAAC.aac
-#EXTINF:-1 tvg-id="711"tvg-logo="https://api.mana2.my/image/image_gallery?img_id=229151117"tvg-chno="711"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Bernama Radio
-https://live.mana2.my/BernamaRadio/index.m3u8|User-Agent=Mozilla
 #EXTINF:-1 tvg-id="721"tvg-logo="https://assets-mpa.hotfm.audio/media/Logo/profile_photo_1000x1000-01.jpg"tvg-chno="721"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Hot FM
 https://mediaprima.rastream.com/mediaprima-hotfm
 #EXTINF:-1 tvg-id="722"tvg-logo="https://assets-mpa.kool101.audio/media/Logo/profile_photo_1000x1000-03.jpg"tvg-chno="722"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Kool 101
@@ -72,5 +74,3 @@ https://mediaprima.rastream.com/mediaprima-flyfm
 https://mediaprima.rastream.com/mediaprima-onefm
 #EXTINF:-1 tvg-id="725"tvg-logo="https://assets.audioplus.audio/2021/12/profile_photo_1000x1000-03-300x300.jpg"tvg-chno="725"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Molek FM
 https://mediaprima.rastream.com/mediaprima-molekfm
-#EXTINF:-1 tvg-id="726"tvg-logo="https://api.mana2.my/image/image_gallery?img_id=233559647"tvg-chno="726"group-title="myFreeview: Radio"provider="":http-referrer="":http-user-agent="",Manis FM
-https://live.mana2.my/ManisFm/index.m3u8|User-Agent=Mozilla
