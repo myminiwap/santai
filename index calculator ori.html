@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="https://drive.google.com/uc?export=download&id=13jCB8dHFCdtd9d1AGUPCbcYYeIcN3-64"> -->
+    <link rel="stylesheet" href="https://myminiwap.github.io/santai/kalkulator.css">
+    <!-- <link rel="stylesheet" href="kalkulator.css" />-->
+  </head>
+
+  <body onload="myLoader()" style="margin: 0">
+    <div id="loader"></div>
+    <div style="display: none" id="myDiv" class="animate-bottom">
+      <div class="table">
+        <table class="title">
+          <tr>
+            <td>KALKULATOR GAJI V2</td>
+          </tr>
+        </table>
+      </div>
+      <div class="table">
+        <table class="base">
+          <form id="myForm">
+            <tr>
+              <td>
+                <span>Gaji asas :</span>
+              </td>
+              <td>
+                <div class="tooltip" onclick="myInfo1()">
+                  <span class="icon-border">i</span><span class="tooltiptext" id="myPopup1">Gaji asas semasa</span>
+                </div>
+              </td>
+              <td>
+                <input class="calmerah" type="number" id="basic" value="1500" placeholder="Jumlah RM" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span>Elaun syif :</span>
+              </td>
+              <td>
+                <div class="tooltip" onclick="myInfo2()">
+                  <span class="icon-border">i</span><span class="tooltiptext" id="myPopup2">Elaun syif - Tetap</span>
+                </div>
+              </td>
+              <td>
+                <input class="calmerah" type="number" id="shift" value="125" placeholder="Jumlah RM" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span>Elaun PB :</span>
+              </td>
+              <td>
+                <div class="tooltip" onclick="myInfo3()">
+                  <span class="icon-border">i</span><span class="tooltiptext" id="myPopup3">Elaun PB - Tetap</span>
+                </div>
+              </td>
+              <td>
+                <input class="calmerah" type="number" id="pb" value="200" placeholder="Jumlah RM" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span>Elaun dobi :</span>
+              </td>
+              <td>
+                <div class="tooltip" onclick="myInfo4()">
+                  <span class="icon-border">i</span><span class="tooltiptext" id="myPopup4">Elaun dobi - Tetap</span>
+                </div>
+              </td>
+              <td>
+                <input class="calmerah" type="number" id="dobi" value="40" placeholder="Jumlah RM" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span>Elaun makan :</span>
+              </td>
+              <td>
+                <div class="tooltip" onclick="myInfo5()">
+                  <span class="icon-border">i</span><span class="tooltiptext" id="myPopup5">Jika OT lebih 2jam sehari</span>
+                </div>
+              </td>
+              <td>
+                <input class="calmerah" type="number" id="makan" value="0" placeholder="Jumlah Hari" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span>OT1 :</span>
+              </td>
+              <td>
+                <div class="tooltip" onclick="myInfo6()">
+                  <span class="icon-border">i</span><span class="tooltiptext" id="myPopup6">Normal OT</span>
+                </div>
+              </td>
+              <td>
+                <input class="calhijau" type="number" id="ot" value="0" placeholder="Jumlah Jam" />
+              </td>
+            </tr>
+
+            <!--      <tr>
+              <td>
+                <span>OT2 :</span>
+              </td>
+              <td>
+                <div class="tooltip" onclick="myInfo7()">
+                  <span class="icon-border">i</span><span class="tooltiptext" id="myPopup7">ODOT 4jam pertama</span>
+                </div>
+              </td>
+              <td>
+                <input class="calhijau" type="number" id="odot_1" value="0" placeholder="Jumlah Jam" />
+              </td>
+            </tr>   -->
+
+            <tr>
+              <td>
+                <span>OT3 :</span>
+              </td>
+              <td>
+                <div class="tooltip" onclick="myInfo8()">
+                  <span class="icon-border">i</span><span class="tooltiptext" id="myPopup8">ODOT 8jam pertama</span>
+                </div>
+              </td>
+              <td>
+                <input class="calhijau" type="number" id="odot_2" value="0" placeholder="Jumlah Hari" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span>OT4 :</span>
+              </td>
+              <td>
+                <div class="tooltip" onclick="myInfo9()">
+                  <span class="icon-border">i</span><span class="tooltiptext" id="myPopup9">ODOT selepas 8jam</span>
+                </div>
+              </td>
+              <td>
+                <input class="calhijau" type="number" id="odot_3" value="0" placeholder="Jumlah Jam" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span>OT5 :</span>
+              </td>
+              <td>
+                <div class="tooltip" onclick="myInfo10()">
+                  <span class="icon-border">i</span><span class="tooltiptext" id="myPopup10">PH 8jam pertama</span>
+                </div>
+              </td>
+              <td>
+                <input class="calhijau" type="number" id="ph_1" value="0" placeholder="Jumlah Hari" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <span>OT6 :</span>
+              </td>
+              <td>
+                <div class="tooltip" onclick="myInfo11()">
+                  <span class="icon-border">i</span><span class="tooltiptext" id="myPopup11">PH selepas 8jam</span>
+                </div>
+              </td>
+              <td>
+                <input class="calhijau" type="number" id="ph_2" value="0" placeholder="Jumlah Jam" />
+              </td>
+            </tr>
+          </form>
+
+          <tr>
+            <td class="btnreset" colspan="2">
+              <button id="reset" type="button" class="button reset" onclick="myFunction()" value="Reset">
+                Reset
+              </button>
+            </td>
+            <td class="btnkira" colspan="2">
+              <button id="btn" class="button kira">Mula kira</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="3">
+              <!-- <button id="tukarBg" class="hide" title="Click to Show" type="button" onclick="toggle()"><span>&#9654; Lihat formula &#9664;</span></button> -->
+
+              <table class="formula">
+                <thead>
+                  <tr>
+                    <th colspan="2" id="tukarBg" type="button" onclick="toggle()">
+
+                      <div class="tooltip">
+                        <span class="icon-border2">i</span>
+                      </div> <span class="formula">
+                        <blink>Klik untuk lihat formula</blink>
+                      </span>
+
+                    </th>
+                  </tr>
+                </thead>
+                <!-- hide---------------------------------------------------------------------  -->
+                <tbody id="spoiler" style="display: none">
+                  <tr>
+                    <td class="formula-left">OT1 per jam</td>
+                    <td class="formula-right">
+                      <div id="output1">
+                        = (asas + syif) &#247; 26 &#247; 8 x 1.5
+                      </div>
+                    </td>
+                  </tr>
+                  <!--  <tr>
+                    <td>OT2 per jam</td>
+                    <td>
+                      <div id="output2">
+                        = (asas + syif) &#247; 26 &#247; 8 x 0.5
+                      </div>
+                    </td>
+                  </tr>  -->
+                  <tr>
+                    <td>OT3 per jam</td>
+                    <td>
+                      <div id="output3">
+                        = (asas + syif) &#247; 26 &#247; 8 x 1.0
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>OT4 per jam</td>
+                    <td>
+                      <div id="output4">
+                        = (asas + syif) &#247; 26 &#247; 8 x 2
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>OT5 per jam</td>
+                    <td>
+                      <div id="output5">
+                        = (asas + syif) &#247; 26 &#247; 8 x 2
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>OT6 per jam</td>
+                    <td>
+                      <div id="output6">
+                        = (asas + syif) &#247; 26 &#247; 8 x 3
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+                <!-- hide---------------------------------------------------------------------------  -->
+
+                <!--  tabel gaji total -->
+                <tfoot>
+                  <tr>
+                    <td class="formula-left">
+                      <div class="gaji-asas">Gaji asas</div>
+                    </td>
+                    <td class="formula-right">
+                      <div class="gaji-asas" id="output">
+                        &nbsp;&nbsp;&nbsp;RM 0.00
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Elaun shift</td>
+                    <td>
+                      <div id="output11">+ RM 0.00</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Elaun PB</td>
+                    <td>
+                      <div id="output12">+ RM 0.00</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Elaun dobi</td>
+                    <td>
+                      <div id="output13">+ RM 0.00</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Elaun makan</td>
+                    <td>
+                      <div id="output17">+ RM 0.00</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>OT1</td>
+                    <td>
+                      <div id="output7">+ RM 0.00</div>
+                    </td>
+                  </tr>
+                  <!--   <tr>
+                    <td>OT2</td>
+                    <td>
+                      <div id="output8">+ RM 0.00</div>
+                    </td>
+                  </tr>    -->
+                  <tr>
+                    <td>OT3</td>
+                    <td>
+                      <div id="output15">+ RM 0.00</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>OT4</td>
+                    <td>
+                      <div id="output16">+ RM 0.00</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>OT5</td>
+                    <td>
+                      <div id="output9">+ RM 0.00</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>OT6</td>
+                    <td>
+                      <div id="output14">+ RM 0.00</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="jumlah-gaji">Jumlah Gaji</div>
+                    </td>
+                    <td>
+                      <div id="output10" class="jumlah-gaji">= RM 0.00</div>
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!--     <script src="https://drive.google.com/uc?export=download&id=13Z9Kww9JfvL-rIv6-e1U4JGbkxmknkIM"></script> -->
+    <script src="https://myminiwap.github.io/santai/kalkulator.js"></script>
+    <!-- <script src="kalkulator.js"></script>-->
+  </body>
+
+</html>
